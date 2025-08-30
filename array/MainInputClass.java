@@ -30,7 +30,11 @@ public class MainInputClass {
         //Reverse Method....
         ReverseArray.Reverse(arr,size);
         System.out.println(Arrays.toString(arr));
-        
+        //-------------------------------------------//
+        FindThe2ndLargest Sp= new FindThe2ndLargest();
+       int s= Sp.findSecondLargest(arr);
+       System.out.println("The Second Largest Element inside The Array is"+ s);
+       /*omorrow, whenever you send me a message like “Start from here”, I’ll begin with Easy #1: Find the Largest Element in an Array — complete with problem statement, examples, step-by-step logic, and full Java code + explanation.*/ 
         
     }
 }
